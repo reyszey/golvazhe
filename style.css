@@ -5,15 +5,15 @@ body{
 /*FONTS*/
 @font-face {
     font-family: en;
-    src: url(/font/Manrope-Medium.ttf);
+    src: url(/golvazhe/font/Manrope-Regular.ttf);
 }
 @font-face {
     font-family: lalezar;
-    src: url(/font/Lalezar-Regular.ttf);
+    src: url(/golvazhe/font/Lalezar-Regular.ttf);
 }
 @font-face {
     font-family: sahel;
-    src: url(/font/Sahel-Bold.ttf) ;
+    src: url(/golvazhe/font/Sahel-Bold.ttf) ;
 }
 @font-face {
     font-family: par;
