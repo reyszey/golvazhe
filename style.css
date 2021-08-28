@@ -1,0 +1,366 @@
+body{
+    background: linear-gradient(to right, #efefbb, #d4d3dd);
+}
+
+/*FONTS*/
+@font-face {
+    font-family: en;
+    src: url(/font/Manrope-Medium.ttf);
+}
+@font-face {
+    font-family: lalezar;
+    src: url(/font/Lalezar-Regular.ttf);
+}
+@font-face {
+    font-family: sahel;
+    src: url(/font/Sahel-Bold.ttf) ;
+}
+@font-face {
+    font-family: par;
+    src: url(/font/Parastoo-Bold.ttf);
+}
+
+
+.gol h1{
+    font-family: 'lalezar';
+    text-align: center;
+    color: #227c9d;
+    margin: auto;
+    float:none;
+    
+    
+}
+
+.gol img{
+    width: 10%;
+    display: block;
+    margin: auto;
+    
+
+}
+.topBar{
+    width: 100%;
+    height: fit-content;
+    display: flow-root;
+    
+    margin: auto;
+    border-radius: 2rem;
+    float: none;
+    background-color: #FAD961;
+background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+    
+    
+}
+.tamas {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.tamas a{
+    
+    color: rgb(255, 255, 255);
+    font-family:'sahel';
+    float: right;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 11px;
+}
+
+.tamas img{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    float: right;
+    margin: 11px;
+}
+.mail{
+    display: block;
+
+    float: right;
+    margin: 1%;
+    
+}
+.mail a{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family:'sahel';
+    float: right;
+    /*margin: 4% 2%;*/
+    font-size: 25px;
+    margin-top: 11px;
+    text-decoration: none;
+   
+    
+     
+}
+
+.mail img{
+    width: 40px;
+    float: right;
+    margin: 11px;
+    
+}
+.rightBar{
+    width: 43%;
+    margin:5% 5% 5% 0%; 
+    float: right;
+    height:fit-content;
+    margin: 5% 0% 5% 5%;
+    border-radius: 2rem;
+    background: linear-gradient(to right, #514A9D, #24C6DC); 
+    display: flex;
+    flex-direction: column;  
+}
+
+.shop{
+    
+    margin: 7%;
+    
+}
+.shop a{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: 'sahel';
+    float: right;
+    /*margin: 4% 2%;*/
+    text-decoration: none;
+    
+
+}
+
+.par p{
+    
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'sahel';
+    margin-top: -4%;
+    padding-left: 3%;
+    
+}
+.shop img{
+    text-align: right;
+    width: 40px;
+    float: right;
+
+
+}
+
+/*WEBLITE*/
+
+.weblite{
+    
+    margin: 7%;
+    margin-top: 42%;
+}
+.weblite a{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: 'sahel';
+    float: right;
+    /*margin: 4% 2%;*/
+    
+    text-decoration: none;
+    
+
+}
+
+.web p{
+    
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'sahel';
+    margin-top: -4%;
+    padding-left: 3%;
+    
+}
+.weblite img{
+    text-align: right;
+    width: 40px;
+    float: right;
+
+}
+
+.aparat{
+    
+    margin: 7%;
+    margin-top: 42%;
+}
+.aparat a{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: 'sahel';
+    float: right;
+    /*margin: 4% 2%;*/
+    
+    text-decoration: none;
+    
+
+}
+
+.ap p{
+    
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'sahel';
+    margin-top: -4%;
+    padding-left: 3%;
+    
+}
+.aparat img{
+    text-align: right;
+    width: 40px;
+    float: right;
+
+}
+.leftBar{
+    width: 40%;
+    height: 115px;
+    margin: 7% 5% 8% 2%;
+    float: left;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/*tele*/
+
+
+.tele{
+    
+    margin: 5%;
+    
+}
+.tele a{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: 'sahel';
+    float: left;
+    margin: 4% 2%;
+    
+    text-decoration: none;
+    
+
+}
+
+.id p{
+    text-align: right;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    float: left;
+    font-family: 'sahel';
+    
+    padding-left: 3%;
+}
+.tele img{
+    text-align: right;
+    width: 40px;
+    float: left;
+    margin-right: 2%;
+    
+
+
+}
+.leftBar2{
+    width: 40%;
+    height:115px;
+    float: left;
+    margin:5% 5% 5% 2%;
+    background: linear-gradient(to right top,#17c3b2 , #096d63);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.insta{
+    
+    margin: 11px;
+    
+}
+.insta a{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: 'sahel';
+    float: left;
+    margin: 4% 2%;
+    
+    text-decoration: none;
+    
+
+}
+
+.instauser p{
+    text-align: right;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    float: left;
+    font-family: 'sahel';
+    padding-left: 9%;
+    margin-top: 1%;
+}
+.insta img{
+    text-align: right;
+    width: 40px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 1%;
+
+}
+
+/*maaap*/
+
+.leftBar3{
+    width: 40%;
+    height: 115px;
+    margin:5% 5% 5% 2%;
+    float: left;
+    background: linear-gradient(to right, #ed213a, #93291e);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.map{
+    
+    margin: 5%;
+    
+}
+.map a{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: 'sahel';
+    float: left;
+    margin: 4% 2%;
+    
+    text-decoration: none;
+    
+
+}
+
+
+.map img{
+    text-align: right;
+    width: 40px;
+    float: left;
+    margin-right: 2%;
+    
+
+
+}
+.section{
+    width: 90%;
+    float: none;
+    margin:auto;
+    height: 500px;
+    border-radius: 2rem;
+
+}
