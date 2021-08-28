@@ -356,6 +356,16 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 
 
 }
+
+.footer{
+    font-family: 'lalezar';
+    font-size: 7px;
+    text-align: center;
+    color: #092731;
+    margin: 10%;
+    float: none;
+
+}
 .section{
     width: 90%;
     float: none;
