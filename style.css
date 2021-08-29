@@ -104,8 +104,8 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
     
 }
 .rightBar{
-    width: 43%;
-    margin:5% 5% 5% 0%; 
+    width: 51%;
+    margin:5% 0% 5% 0%; 
     float: right;
     height:fit-content;
     margin: 5% 0% 5% 5%;
@@ -125,7 +125,7 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
     color: rgb(255, 255, 255);
     font-family: 'sahel';
     float: right;
-    margin: 4% 2%;
+    margin: 4% 0%;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -145,7 +145,7 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 }
 .shop img{
     text-align: right;
-    width: 40px;
+    width: 44px;
     float: right;
 
 
@@ -227,7 +227,7 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 .leftBar{
     width: 43%;
     height: 16%;
-    margin:5% 5% 5% 2%;;
+    margin:5% 0% 5% 2%;;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,7 +279,7 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 .leftBar2{
     width: 43%;
     height: 16%;
-    margin:5% 5% 5% 2%;;
+    margin:5% 0% 5% 2%;;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -331,7 +331,7 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 .leftBar3{
     width: 43%;
     height: 16%;
-    margin:5% 5% 5% 2%;;
+    margin:5% 0% 5% 2%;;
     
     float: left;
     background: linear-gradient(to right, #ed213a, #93291e);
