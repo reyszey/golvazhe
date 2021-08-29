@@ -5,15 +5,15 @@ body{
 /*FONTS*/
 @font-face {
     font-family: en;
-    src: url(/golvazhe/font/Manrope-Regular.ttf);
+    src: url(/font/Manrope-Medium.ttf);
 }
 @font-face {
     font-family: lalezar;
-    src: url(/golvazhe/font/Lalezar-Regular.ttf);
+    src: url(/font/Lalezar-Regular.ttf);
 }
 @font-face {
     font-family: sahel;
-    src: url(/golvazhe/font/Sahel-Bold.ttf) ;
+    src: url(/font/Sahel-Bold.ttf) ;
 }
 @font-face {
     font-family: par;
@@ -27,12 +27,12 @@ body{
     color: #227c9d;
     margin: auto;
     float:none;
-    
+    text-decoration: none;
     
 }
 
 .gol img{
-    width: 10%;
+    width: 22%;
     display: block;
     margin: auto;
     
@@ -118,16 +118,18 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 .shop{
     
     margin: 7%;
-    
+    margin-top: 13%;
 }
 .shop a{
     text-align: right;
     color: rgb(255, 255, 255);
     font-family: 'sahel';
     float: right;
-    /*margin: 4% 2%;*/
+    margin: 4% 2%;
     text-decoration: none;
-    
+    display: flex;
+    justify-content: center;
+    font-size: large;
 
 }
 
@@ -154,17 +156,19 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 .weblite{
     
     margin: 7%;
-    margin-top: 42%;
+    margin-top: 16%;
 }
 .weblite a{
     text-align: right;
     color: rgb(255, 255, 255);
     font-family: 'sahel';
     float: right;
-    /*margin: 4% 2%;*/
+    margin: 4% 2%;
     
     text-decoration: none;
-    
+    display: flex;
+    justify-content: center;
+    font-size: large;
 
 }
 
@@ -188,17 +192,19 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 .aparat{
     
     margin: 7%;
-    margin-top: 42%;
+    margin-top: 7%;
 }
 .aparat a{
     text-align: right;
     color: rgb(255, 255, 255);
     font-family: 'sahel';
     float: right;
-    /*margin: 4% 2%;*/
+    margin: 4% 2%;
     
     text-decoration: none;
-    
+    display: flex;
+    justify-content: center;
+    font-size: large;
 
 }
 
@@ -219,15 +225,16 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 
 }
 .leftBar{
-    width: 40%;
-    height: 115px;
-    margin: 7% 5% 8% 2%;
+    width: 43%;
+    height: 16%;
+    margin:5% 5% 5% 2%;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     float: left;
     background-color: #FF3CAC;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
     border-radius: 2rem;
-    display: flex;
-    flex-direction: column;
 }
 
 /*tele*/
@@ -235,7 +242,8 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 
 .tele{
     
-    margin: 5%;
+    display: flex;
+    justify-content: center;
     
 }
 .tele a{
@@ -269,20 +277,23 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 
 }
 .leftBar2{
-    width: 40%;
-    height:115px;
-    float: left;
-    margin:5% 5% 5% 2%;
-    background: linear-gradient(to right top,#17c3b2 , #096d63);
-    border-radius: 2rem;
+    width: 43%;
+    height: 16%;
+    margin:5% 5% 5% 2%;;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    float: left;
+    background: linear-gradient(to right top,#17c3b2 , #096d63);
+    border-radius: 2rem;
+    
     
 }
 
 .insta{
     
-    margin: 11px;
+    display: flex;
+    justify-content: center;
     
 }
 .insta a{
@@ -318,20 +329,23 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 /*maaap*/
 
 .leftBar3{
-    width: 40%;
-    height: 115px;
-    margin:5% 5% 5% 2%;
+    width: 43%;
+    height: 16%;
+    margin:5% 5% 5% 2%;;
+    
     float: left;
     background: linear-gradient(to right, #ed213a, #93291e);
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
 .map{
     
-    margin: 5%;
+    display: flex;
+    justify-content: center;
     
 }
 .map a{
@@ -356,14 +370,18 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
 
 
 }
-
-.footer h2{
+.footer{
     font-family: 'lalezar';
     font-size: 7px;
-    text-align: center;
-    color: #092731;
+    text-align: right;
+    
     margin: 10%;
     float: none;
+    display: flex;
+    justify-content: center;
+    color: linear-gradient(to right, #f2709c, #ff9472);
+    padding: 3%;
+    
 
 }
 .section{
