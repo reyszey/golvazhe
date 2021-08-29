@@ -374,12 +374,12 @@ background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
     font-family: 'lalezar';
     font-size: 7px;
     text-align: right;
-    
+    color: black;
     margin: 10%;
     float: none;
     display: flex;
     justify-content: center;
-    color: linear-gradient(to right, #f2709c, #ff9472);
+    
     padding: 3%;
     
 
